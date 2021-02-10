@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: aliceblue;
+    perspective: 800px;
+
+}
+.password-generation{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.generation-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 36, 97);
+    width: 500px;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.generation-body h2{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.generation-body h3{
+    background-color: white;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    padding: 1rem;
+    word-break: break-all;
+
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+}
+label{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.range-div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+input[type ='number']{
+    width: 2rem;
+    border: none;
+    outline: none;
+}
+.button-password{
+    background-color: rgba(233, 216, 216, 0.4);
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    padding: .5rem;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    grid-column: span 2;
+    
+}
+.button-password:hover{
+    background-color: rgba(240, 231, 231, 0.6);
+}
